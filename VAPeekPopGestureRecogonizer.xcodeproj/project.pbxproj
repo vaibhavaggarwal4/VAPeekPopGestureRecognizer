@@ -12,6 +12,8 @@
 		6D3B7EAC1C7855B50083E4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3B7EAA1C7855B50083E4BD /* Main.storyboard */; };
 		6D3B7EAE1C7855B50083E4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3B7EAD1C7855B50083E4BD /* Assets.xcassets */; };
 		6D3B7EB11C7855B50083E4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3B7EAF1C7855B50083E4BD /* LaunchScreen.storyboard */; };
+		6D3B7EB91C7855FB0083E4BD /* PeekPopRecogonizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B7EB81C7855FB0083E4BD /* PeekPopRecogonizer.swift */; };
+		6D3B7EBB1C79278A0083E4BD /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B7EBA1C79278A0083E4BD /* AnotherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6D3B7EAD1C7855B50083E4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3B7EB01C7855B50083E4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D3B7EB21C7855B50083E4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3B7EB81C7855FB0083E4BD /* PeekPopRecogonizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekPopRecogonizer.swift; sourceTree = "<group>"; };
+		6D3B7EBA1C79278A0083E4BD /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		6D3B7EA51C7855B50083E4BD /* VAPeekPopGestureRecogonizer */ = {
 			isa = PBXGroup;
 			children = (
+				6D3B7EBC1C799F920083E4BD /* PeekPopRecogonizer */,
 				6D3B7EA61C7855B50083E4BD /* AppDelegate.swift */,
 				6D3B7EA81C7855B50083E4BD /* ViewController.swift */,
+				6D3B7EBA1C79278A0083E4BD /* AnotherViewController.swift */,
 				6D3B7EAA1C7855B50083E4BD /* Main.storyboard */,
 				6D3B7EAD1C7855B50083E4BD /* Assets.xcassets */,
 				6D3B7EAF1C7855B50083E4BD /* LaunchScreen.storyboard */,
 				6D3B7EB21C7855B50083E4BD /* Info.plist */,
 			);
 			path = VAPeekPopGestureRecogonizer;
+			sourceTree = "<group>";
+		};
+		6D3B7EBC1C799F920083E4BD /* PeekPopRecogonizer */ = {
+			isa = PBXGroup;
+			children = (
+				6D3B7EB81C7855FB0083E4BD /* PeekPopRecogonizer.swift */,
+			);
+			name = PeekPopRecogonizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			files = (
 				6D3B7EA91C7855B50083E4BD /* ViewController.swift in Sources */,
 				6D3B7EA71C7855B50083E4BD /* AppDelegate.swift in Sources */,
+				6D3B7EBB1C79278A0083E4BD /* AnotherViewController.swift in Sources */,
+				6D3B7EB91C7855FB0083E4BD /* PeekPopRecogonizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
