@@ -14,8 +14,9 @@ class AnotherViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.view.backgroundColor = UIColor.orangeColor()
+    self.view.backgroundColor = UIColor(red: 230/255, green: 126/255, blue: 34/255, alpha: 1.0)
     self.button.setTitle("Close", forState: .Normal)
+    self.button.titleLabel?.font = UIFont.boldSystemFontOfSize(28.0)
     self.button.addTarget(self, action: "dismiss", forControlEvents: .TouchUpInside)
     self.button.sizeToFit()
     self.view.addSubview(self.button)

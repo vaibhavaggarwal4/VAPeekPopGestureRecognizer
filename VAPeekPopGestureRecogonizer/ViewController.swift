@@ -16,8 +16,11 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.view.backgroundColor = UIColor(red: 46/255, green: 204/255, blue: 113/255, alpha: 1.0)
     self.view.addSubview(self.label)
     self.label.text = "Long Tap on me"
+    self.label.font = UIFont.boldSystemFontOfSize(28.0)
+    self.label.textColor = UIColor.whiteColor()
     self.label.sizeToFit()
     self.label.userInteractionEnabled = true
     self.peekPopRecognizer = PeekPopGestureRecogonizer(view: self.label, peekAnimation: PeekAnimationType.GrowIn)
