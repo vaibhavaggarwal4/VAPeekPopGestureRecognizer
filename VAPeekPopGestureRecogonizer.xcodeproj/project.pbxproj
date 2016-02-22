@@ -26,6 +26,7 @@
 		6D3B7EB21C7855B50083E4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D3B7EB81C7855FB0083E4BD /* PeekPopRecogonizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekPopRecogonizer.swift; sourceTree = "<group>"; };
 		6D3B7EBA1C79278A0083E4BD /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		6D3B7EBD1C7AB22B0083E4BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		6D3B7E9A1C7855B50083E4BD = {
 			isa = PBXGroup;
 			children = (
+				6D3B7EBD1C7AB22B0083E4BD /* AudioToolbox.framework */,
 				6D3B7EA51C7855B50083E4BD /* VAPeekPopGestureRecogonizer */,
 				6D3B7EA41C7855B50083E4BD /* Products */,
 			);

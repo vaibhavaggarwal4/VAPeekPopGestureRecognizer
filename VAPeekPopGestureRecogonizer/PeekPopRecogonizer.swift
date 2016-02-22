@@ -123,7 +123,7 @@ class PeekPopGestureRecogonizer {
       viewController.view.transform = CGAffineTransformMakeScale(0.8, 0.6)
       delegateVC.view.addSubview(viewController.view)
       self.peekingViewController = viewController
-      UIView.animateWithDuration(0.4, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 1.0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
+      UIView.animateWithDuration(0.4, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1.0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
         viewController.view.alpha = 1.0
         }, completion: { (finished: Bool) -> Void in
           
@@ -137,7 +137,7 @@ class PeekPopGestureRecogonizer {
   */
   @objc private func popViewController() {
     if let vc = self.peekingViewController {
-      UIView.animateWithDuration(0.2, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.6, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
+      UIView.animateWithDuration(0.2, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.6, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
         vc.view.transform = CGAffineTransformIdentity
         }, completion: { [weak self] (finished: Bool) -> Void in
           self?.hasPopped = true
